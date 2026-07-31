@@ -137,7 +137,7 @@
 // console.log(typeof num6);
 
 
-let a=20,b=5;
+// let a=20,b=5;
 // console.log("sum",a+b);
 // console.log("dif",a-b);
 // console.log("product",a*b);
@@ -162,12 +162,12 @@ let a=20,b=5;
 
 //aszignment opertors
 
-let x=25;
-console.log(x+=10);  // x=x+10
-console.log(x-=10);   // x=x-10
-console.log(x*=10);    // x=x*10
-console.log(x/=10);     // x=x/10
-console.log(x%=10);     // x=x%10
+// let x=25;
+// console.log(x+=10);  // x=x+10
+// console.log(x-=10);   // x=x-10
+// console.log(x*=10);    // x=x*10
+// console.log(x/=10);     // x=x/10
+// console.log(x%=10);     // x=x%10
 
 
 
