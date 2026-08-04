@@ -1,32 +1,37 @@
-function greet(
-    {
-        console.log("hello");
+// function greet()
+//     {
+//         console.log("hello");
         
-    }
-)
-greet()
+//     }
+
+// greet()
 
 
-//with parameter
-function greet(name){
-    console.log(`hello ${name}`);
+// //with parameter
+// function greet(name){
+//     console.log(`hello ${name}`);
     
-}
-greet("anu")
+// }
+// greet("anu")
 
-//multiple parameter
+// //multiple parameter
 
-function sum(a, b)
-{
-    console.log(a+b);
+// function sum(a, b)
+// {
+//     console.log(a+b);
     
-}
-sum(10,30)
+// }
+// sum(10,30)
 
 
-//default parameter
-function sum(a=10,b){
-    console.log(a+b);
+// //default parameter
+// function sum(a=10,b){
+//     console.log(a+b);
     
+// }
+// sum(38,10)
+function greet(name) {
+    console.log(`Hello, ${name}`);
 }
-sum(38,10)
+
+greet("Alice");
