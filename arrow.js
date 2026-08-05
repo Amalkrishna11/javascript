@@ -18,6 +18,5 @@
 
 // let greeet=()=> "hello"
 // console.log(greeet());
-
-
-
+                     
+//normal function
