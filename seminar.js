@@ -3,7 +3,7 @@
 
 
 function outer() {
-    let name = "jobin";
+    let name = "spiderman";
 
     function inner() {
         console.log(name);
@@ -15,3 +15,39 @@ function outer() {
 let result = outer();
 
 result(); 
+
+
+// closure
+function outer() {
+  let count = 0;
+
+  function inner() {
+    count++;
+    console.log(count);
+  }
+
+  return inner;
+}
+
+const fn = outer();
+
+fn(); // 1
+fn(); // 2
+fn(); // 3
+
+
+2 example
+
+function bankAccount() {
+  let balance = 1000;
+
+  return function(amount) {
+    balance += amount;
+    console.log("Balance:", balance);
+  };
+}
+
+const account = bankAccount();
+
+account(500);  // Balance: 1500
+account(-200); // Balance: 1300
