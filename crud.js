@@ -51,3 +51,19 @@ function addStudent() {
 
     console.log(students);
 }
+
+function deletestudent(){
+    let id = nmber(prompt("enyrt students id:"));
+    let index= students.findindex(function(student){
+    return students.id==id;
+});;
+if(index!==-1){
+    students.splice(index,1);
+    alert("students delete sucessfuly");
+}else{
+    alert("students not found")
+}
+console.log(students);
+
+
+}
