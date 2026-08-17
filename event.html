@@ -1,0 +1,44 @@
+//event is an action that happens in a web page usually caused by the user or browser
+//add event listener is a java script method used to lisen for an event on the html element and execute  function when that event course
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me </button>
+
+    <script>
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener('click', function(){
+            alert("button clicked");
+        });
+    </script>
+
+    <p id="text">helliii worls</p>
+    <button id="textbtn">change text</button>
+
+    <script>
+        let textbtn = document.getElementById('textbtn');
+        let text = document.getElementById('text');
+
+        textbtn.addEventListener('click', function(){
+            text.textContent = "text has been changed";
+        });
+    </script>
+
+    <input type="text" id="input">
+
+    <script>
+        let input = document.getElementById('input');
+
+        input.addEventListener("input", function(){
+            console.log(input.value);
+        });
+    </script>
+
+</body>
+</html>
